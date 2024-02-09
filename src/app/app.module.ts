@@ -8,6 +8,7 @@ import { TopHeaderComponent } from './header/top-header/top-header.component';
 import { TopMenuComponent } from './header/top-menu/top-menu.component';
 import { MainMenuComponent } from './header/main-menu/main-menu.component';
 import { BottomHeaderComponent } from './header/bottom-header/bottom-header.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { BottomHeaderComponent } from './header/bottom-header/bottom-header.comp
     TopHeaderComponent,
     TopMenuComponent,
     MainMenuComponent,
-    BottomHeaderComponent
+    BottomHeaderComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
