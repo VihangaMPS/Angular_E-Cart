@@ -8,9 +8,10 @@ import { TopHeaderComponent } from './header/top-header/top-header.component';
 import { TopMenuComponent } from './header/top-menu/top-menu.component';
 import { MainMenuComponent } from './header/main-menu/main-menu.component';
 import { BottomHeaderComponent } from './header/bottom-header/bottom-header.component';
-import { ProductListComponent } from './product-list/product-list.component';
-import { SearchBoxComponent } from './product-list/search-box/search-box.component';
+import { ContainerComponent } from './container/container.component';
+import { SearchBoxComponent } from './container/search-box/search-box.component';
 import {FormsModule} from "@angular/forms";
+import { ProductListComponent } from './container/product-list/product-list.component';
 
 
 @NgModule({
@@ -21,8 +22,9 @@ import {FormsModule} from "@angular/forms";
     TopMenuComponent,
     MainMenuComponent,
     BottomHeaderComponent,
-    ProductListComponent,
-    SearchBoxComponent
+    ContainerComponent,
+    SearchBoxComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
